@@ -1,0 +1,161 @@
+html {
+  width: 100%;
+  height: 40%;
+}
+
+body {
+  width: 900px;
+  margin:auto;
+}
+
+header {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+main {
+  margin-top: 54px;
+}
+
+footer {
+  margin-top: 20px;
+  position:relative;
+}
+
+.delicious-box {
+
+  position: relative;
+}
+
+#deliciousimg {
+  display: inline;
+  float: left;
+}
+#chocolate-pizza-image {
+  height: 901px
+  width: 603px
+}
+
+
+.delicious-box {
+  display:;
+  font-size: 35px;
+  font-family: yellowtail;
+}
+#delicious-p {
+  font-size: 14px;
+font-family: sans-seriff;
+color: grey;
+padding-left: 4px;
+}
+
+.nav-bar {
+  float: right;
+  display: inline;
+  position: absolute;
+    top: 57px;
+    right: 104px;
+}
+
+#rss-button {
+padding-left: 7px;
+}
+
+.squiggle-bar {
+  width: 100%;
+  padding-top: 18px;
+}
+
+#subheader-h2 {
+font-size:  32px;
+font-family: oswald;
+}
+
+#subheader-date {
+  font-size: 12px;
+  color: grey;
+  margin-top: 6px;
+}
+
+.print {
+  float: right;
+  color: grey;
+  font-size: 12px;
+  margin-top: -12px;
+  }
+
+  #print-img {
+    margin-right: 40px;
+  }
+
+.directions {
+  padding: 25px;
+  text-indent: 25px;
+}
+
+.ingredientsBox {
+ position:relative;
+ width:899px;
+ height:305px;
+ margin-bottom: 40px;
+}
+
+ul.ingredientsList {
+ position: absolute;
+ font-family: 'Patrick Hand',cursive;
+ font-size: 24px;
+ color: #777;
+ list-style-type: none;
+ top: 40px;
+ left: 60px;
+ columns: 2;
+ column-gap: 40px;
+ margin-right: 100px;
+}
+
+.columnBreak {
+ break-after: column;
+}
+
+.author-box {
+
+  position: relative;
+}
+
+#author-name {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+#author-description {
+  font-size: 16px;
+  padding-top: 10px;
+font-family: sans-seriff;
+padding-left: 4px;
+}
+
+#author-img {
+  display: inline;
+  float: left;
+}
+
+.share-button {
+  background-color: red;
+  color: white;
+  display: inline;
+  padding: 20px;
+  postion: absolute;
+  position: absolute;
+  right: 0px;
+  bottom: 85px;
+}
+
+.footer-end {
+  text-align: center;
+}
+
+input[type=checkbox]:checked + label {
+
+  text-decoration: line-through;
+}
